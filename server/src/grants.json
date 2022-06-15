@@ -1,0 +1,170 @@
+[
+  {
+    "role": "csr",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "TodoList",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TodoList",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "TodoList",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TodoList",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "TodoList",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TodoList",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "TodoList",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TodoList",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "TodoList",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TodoList",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Todo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "Todo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Todo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "Todo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Todo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "Todo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Todo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "csr",
+    "resource": "Todo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Todo",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
